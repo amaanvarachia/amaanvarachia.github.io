@@ -6,6 +6,7 @@ This project explores applying statsmodel ordinary least squares linear regressi
 Analysis such as correlation, pearsons correlation, residuals vs fitted, Q-Q plot,scale location plot(for linearity and homoskedasicity), residuals vs leverage, shapiro statistic, 
 
 ### [Trees](https://github.com/amaanvarachia/Data-Science-Trees)
+This project uses the classic Titanic data set and begins by cleaning the set, one hot encoding the categorical variables. Various hyperparameters are then tested in the sklearn "DecisionTreeClassifier". Hyperparameter tuning was done using the gridSearchCV function which makes use of k folds cross validation in its methodology. The best hyperparameters are then used to model the partitioned training data set. The model performance is then evaluated by accuracy, precision, MCC,recall adn F1-score. 
 
 ### [Unsupervised Learning](https://github.com/amaanvarachia/Data-Science-Unsupervised-Learning)
 [Clustering project](https://github.com/amaanvarachia/Data-Science-Unsupervised-Learning/blob/main/Clustering%20code.ipynb): This project explored the use of k means clustering to a data set of grocery shoppers and used clustering to group people that favor certain foods example high in dairy,grocery and fresh produce but low in detergent and deli meats. Determing the amount of clusters was done by the 'silhouette' and scree plot (elbow) methods.

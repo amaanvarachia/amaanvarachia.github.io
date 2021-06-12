@@ -3,13 +3,14 @@ A variety of projects and excercises across various topics of Coding, Data Scien
 
 ### [Regression](https://github.com/amaanvarachia/Data-Science-Regression)
 This project explores applying statsmodel ordinary least squares linear regression to student graduate data to determine their predicted salary. The data is also fitted with sklearns LinearRegression and a test/train split was done on the data before comparing the root mean square error between testing and training data.
-Analysis such as correlation, pearsons correlation, residuals vs fitted, Q-Q plot,scale location plot(for linearity and homoskedasicity), residuals vs leverage, shapiro statistic, 
+Analysis such as correlation, pearsons correlation, residuals vs fitted, Q-Q plot,scale location plot(for linearity and homoskedasicity), residuals vs leverage, shapiro statistic and normality curve. 
+Multiple linear regression: Variance Inflation Factor test for multicollinearity, correlation matrix for multiple variables and Durban Watson test for autocorrelation in the residuals.Multivariate regression model, ANOVA test and stepwise regression model. 
 
 ### [Trees](https://github.com/amaanvarachia/Data-Science-Trees)
 This project uses the classic Titanic data set and begins by cleaning the set, one hot encoding the categorical variables. Various hyperparameters are then tested in the sklearn "DecisionTreeClassifier". Hyperparameter tuning was done using the gridSearchCV function which makes use of k folds cross validation in its methodology. The best hyperparameters are then used to model the partitioned training data set. The model performance is then evaluated by accuracy, precision, MCC,recall adn F1-score. 
 
-[Random Forest]
-Averaging multiple deep decision trees.
+[Random Forest](https://github.com/amaanvarachia/Data-Science-Trees/blob/main/Random%20Forrest.ipynb)
+This short project implements Random Forest regression or the "averaging multiple deep decision trees' model to predict median value of housing in Boston.Model tuning was done using the GridSearchCV function which implements cross validation to determine the best hyperparemeters. Since this model makes use of boostraping and aggregation (bagging),an out of bag score (OOB) is an appropariate metric in junction with a validation score.  
 
 ### [Unsupervised Learning](https://github.com/amaanvarachia/Data-Science-Unsupervised-Learning)
 [Clustering project](https://github.com/amaanvarachia/Data-Science-Unsupervised-Learning/blob/main/Clustering%20code.ipynb): This project explored the use of k means clustering to a data set of grocery shoppers and used clustering to group people that favor certain foods example high in dairy,grocery and fresh produce but low in detergent and deli meats. Determing the amount of clusters was done by the 'silhouette' and scree plot (elbow) methods.

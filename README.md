@@ -21,7 +21,11 @@ Using another data set of stock prices, the data was standardized and cluster an
 
 
 ### [Text Analytics](https://github.com/amaanvarachia/Data-Science-TextAnalytics)
-This project explores text mining,analytics and implementing a latent dirichlet allocation(LDA) model
+This project explores text mining,analytics and implementing a latent dirichlet allocation(LDA) model to create overarching topips and dimensionality reduction.Starting with multiple text files representing the speeches of various United States presidents the text files are all loaded in as a single dataframe. Adittional columns are created and the texts are transformed to lower case, removed of punctuation, lemmatization performed and the creation of a 'document text matrix'(DTM). The word frequencies are then computed aswell as a visual representation of the frequencies of unique words. Another visual plot of word count for each speech represented by its year is showed and a wordcloud generated(descriptive meta data).A diagnostic test is then done comparing two speeches and identify any similarities and differences.A text classification model is modelled, on a training data set and then tested for accuracy in determining if speeches are pre 1945 or after using the MultinomialNB classifier (naive bayes for discrete variables). 
+
+
+
+
 <!-- 
 ```markdown
 Syntax highlighted code block

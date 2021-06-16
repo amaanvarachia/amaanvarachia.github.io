@@ -21,8 +21,8 @@ Using another data set of stock prices, the data was standardized and cluster an
 
 
 ### [Text Analytics](https://github.com/amaanvarachia/Data-Science-TextAnalytics)
-
-
+This project explores text mining,analytics and implementing a latent dirichlet allocation(LDA) model
+<!-- 
 ```markdown
 Syntax highlighted code block
 
@@ -40,6 +40,8 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+-->
+
 
 
 ### Disclaimer

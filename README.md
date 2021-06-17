@@ -8,7 +8,7 @@ Multiple linear regression: Variance Inflation Factor test for multicollinearity
 
 <!-- 
 ### [Time Series](https://github.com/amaanvarachia/Data-Science-Trees)
-
+This project explores applying time series visualization, exploratory and modelling techniques to various time series data sets. seasonal_decompose function is applied to break down the tim series trend in the airpassengers data set. An ACF plot is then fitted on the data to visualize the autocorrelation. An ARIMA model is then created which best fits the data and a plot is created showing the projection 36 months into the future. Using the 'canada' dataset a Vector Autoregression Model is implemented 
 
 
 -->

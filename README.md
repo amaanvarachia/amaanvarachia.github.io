@@ -6,12 +6,8 @@ This project explores applying statsmodel ordinary least squares linear regressi
 Analysis such as correlation, pearsons correlation, residuals vs fitted, Q-Q plot,scale location plot(for linearity and homoskedasicity), residuals vs leverage, shapiro statistic and normality curve. 
 Multiple linear regression: Variance Inflation Factor test for multicollinearity, correlation matrix for multiple variables and Durban Watson test for autocorrelation in the residuals.Multivariate regression model, ANOVA test and stepwise regression model. 
 
-<!-- 
-### [Time Series](https://github.com/amaanvarachia/Data-Science-Trees)
-This project explores applying time series visualization, exploratory and modelling techniques to various time series data sets. seasonal_decompose function is applied to break down the tim series trend in the airpassengers data set. An ACF plot is then fitted on the data to visualize the autocorrelation. An ARIMA model is then created which best fits the data and a plot is created showing the projection 36 months into the future. Using the 'canada' dataset a Vector Autoregression Model is implemented 
-
-
--->
+### [Time Series](https://github.com/amaanvarachia/Data-Science-TimeSeries)
+This project explores applying time series visualization, exploratory and modelling techniques to various time series data sets.Various time series data sets are graphed and displayed using iplot including stacked seasonality plots. The seasonal_decompose function is applied to break down the time series trend in the airpassengers data set. An ACF plot is then fitted on the data to visualize the autocorrelation. An ARIMA model is created which best fits the data and a plot is created showing the projection 36 months into the future. Using the 'canada' dataset a Vector Autoregression Model is implemented and then pick the minimal AIC value and its corresponding lag value.
 
 ### [Trees](https://github.com/amaanvarachia/Data-Science-Trees)
 This project uses the classic Titanic data set and begins by cleaning the set, one hot encoding the categorical variables. Various hyperparameters are then tested in the sklearn "DecisionTreeClassifier". Hyperparameter tuning was done using the gridSearchCV function which makes use of k folds cross validation in its methodology. The best hyperparameters are then used to model the partitioned training data set. The model performance is then evaluated by accuracy, precision, MCC,recall adn F1-score. 

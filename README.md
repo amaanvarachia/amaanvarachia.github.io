@@ -1,5 +1,8 @@
 ## Amaan Varachia 
-A variety of projects and excercises across various topics of Coding, Data Science, Machine Learning, Data Engineering etc.
+A variety of projects and excercises across various topics of Software Engineering, Data Science, Machine Learning, Data Engineering etc.
+
+### [API Cache Design (Software Engineering)](hLRUCache(hash,LL)SD.py)
+This data structure design is a Least Recently Used Cache which has a get and put method to add items to the cache however since there is a capacity, the cache constantly removes items that are least recently used to meet the capacity requirement. Key data strcutures used are a hashmap for fast lookup and a doubly linked list to keep order.
 
 ### [Regression](https://github.com/amaanvarachia/Data-Science-Regression)
 This project explores applying statsmodel ordinary least squares linear regression to student graduate data to determine their predicted salary. The data is also fitted with sklearns LinearRegression and a test/train split was done on the data before comparing the root mean square error between testing and training data.
@@ -52,6 +55,6 @@ Syntax highlighted code block
 
 
 ### Disclaimer
-All methods,data and code do not completely belong to Amaan Varachia or contain propiertary data. These are formulated from varies resources for the sole purpose of gaining hands on experience on various coding, statistical and data analytical techniques. 
+All methods,data and code do not completely belong to Amaan Varachia or contain proprietary data. These are formulated from varies resources for the sole purpose of gaining hands on experience on various coding, statistical and data analytical techniques. 
 
 

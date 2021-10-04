@@ -1,7 +1,7 @@
 ## Amaan Varachia 
 A variety of projects and excercises across various topics of Software Engineering, Data Science, Machine Learning, Data Engineering etc.
 
-### [API Cache Design (Software Engineering)](hLRUCache(hash,LL)SD.py)
+### [API Cache Design (Software Engineering)](https://github.com/amaanvarachia/Software/blob/3025b1dd6e2244f9aaf0c6af9a40f71a750ca182/LRUCache(hash,LL)SD.py)
 This data structure design is a Least Recently Used Cache which has a get and put method to add items to the cache however since there is a capacity, the cache constantly removes items that are least recently used to meet the capacity requirement. Key data strcutures used are a hashmap for fast lookup and a doubly linked list to keep order.
 
 ### [Regression](https://github.com/amaanvarachia/Data-Science-Regression)

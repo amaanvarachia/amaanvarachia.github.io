@@ -1,7 +1,7 @@
 ## Amaan Varachia 
 Senior Data Engineer with 7+ years of experience building and modernizing large scale data platforms across Azure and GCP, with additional AWS experience. Expertise spans batch, CDC, and streaming pipelines, with a focus on scalable data modeling, compute cost optimization,and performance across business critical workloads.
 
-### [AI Powered Semantic search ]([https://github.com/amaanvarachia/ETLAzure](https://github.com/amaanvarachia/AWSSemanticSearch))
+### [AI Powered Semantic search ]([https://github.com/amaanvarachia/ETLAzure](https://github.com/amaanvarachia/AWSSemanticSearch)
 A modern, enterprise-level Data Engineering + AI Retrieval project leveraging Amazon Bedrock, Amazon OpenSearch Serverless, Amazon Web Services Lambda, and Vector Embeddings.
 
 ### [ETL Flow of on-premise data source to Delta Lake storage for analytics/visualization using Microsoft Azure](https://github.com/amaanvarachia/ETLAzure)

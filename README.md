@@ -1,5 +1,9 @@
 ## Amaan Varachia 
-A variety of projects and excercises across various topics of Software Engineering, Data Science, Machine Learning, Data Engineering etc.
+Senior Data Engineer with 7+ years of experience building and modernizing large scale data platforms across Azure and GCP, with additional AWS experience. Expertise spans batch, CDC, and streaming pipelines, with a focus on scalable data modeling, compute cost optimization,and performance across business critical workloads.
+
+### [ETL Flow of on-premise data source to Delta Lake storage for analytics/visualization using Microsoft Azure](https://github.com/amaanvarachia/ETLAzure)
+Source on prem data, transform the data and load it to cloud storage for business use using the power of distributed computing using a cloud provider.Large amounts of data exists in the on prem database. The quantity of data is too large to be transformed locally, repeatedly and in a timely manner thus a cloud platform is utilzied.
+
 
 ### [API Cache Design (Software Engineering)](https://github.com/amaanvarachia/Software/blob/3025b1dd6e2244f9aaf0c6af9a40f71a750ca182/LRUCache(hash,LL)SD.py)
 This data structure design is a Least Recently Used Cache which has a get and put method to add items to the cache however since there is a capacity, the cache constantly removes items that are least recently used to meet the capacity requirement. Key data strcutures used are a hashmap for fast lookup and a doubly linked list to keep order.
